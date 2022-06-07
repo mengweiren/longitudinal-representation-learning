@@ -5,8 +5,11 @@ Given longitudinal neuroimages with scarce annotation, pretrain a image-to-image
 
 ## Prerequisites
 Linux (tested with Ubuntu 20.01)
+
 Python 3 (anaconda)
+
 CPU or NVIDIA GPU + CUDA CuDNN
+
 PyTorch (tested with 1.10)
 
 ## Dependencies
