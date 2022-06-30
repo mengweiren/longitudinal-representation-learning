@@ -85,6 +85,7 @@ This code base architecure is highly motivated by [CUT](https://github.com/taesu
   
 ## Citation
 If you use this codebase, please consider citation of our work:
+```tex
 @misc{https://doi.org/10.48550/arxiv.2206.04281,
   doi = {10.48550/ARXIV.2206.04281},
   url = {https://arxiv.org/abs/2206.04281},
@@ -95,4 +96,4 @@ If you use this codebase, please consider citation of our work:
   year = {2022},
   copyright = {arXiv.org perpetual, non-exclusive license}
 }
-
+```
