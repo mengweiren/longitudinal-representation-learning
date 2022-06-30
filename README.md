@@ -83,3 +83,16 @@ bash script_finetune_w_Lcs.sh
 ## Reference
 This code base architecure is highly motivated by [CUT](https://github.com/taesungp/contrastive-unpaired-translation). We refer to [SimSiam](https://github.com/facebookresearch/simsiam) for our projector and predictor implementation, and [VICReg](https://github.com/facebookresearch/vicreg) for the variance and covariance regularization terms.
   
+## Citation
+If you use this codebase, please consider citation of our work:
+@misc{https://doi.org/10.48550/arxiv.2206.04281,
+  doi = {10.48550/ARXIV.2206.04281},
+  url = {https://arxiv.org/abs/2206.04281},
+  author = {Ren, Mengwei and Dey, Neel and Styner, Martin A. and Botteron, Kelly and Gerig, Guido},
+  keywords = {Computer Vision and Pattern Recognition (cs.CV), Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {Local Spatiotemporal Representation Learning for Longitudinally-consistent Neuroimage Analysis},
+  publisher = {arXiv},
+  year = {2022},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
