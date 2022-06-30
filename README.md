@@ -20,6 +20,7 @@ conda env create -f environment.yml
 
 ## Data preparation
 HDF5 is recommended for faster data loading of large volumetric 3D biomedical images. 
+
 **For Longitudinal pretraining**
 As we perform intra-subject sampling, the pretraining data loader requires subject-specific data structure. The h5 file is hierachically indexed by subject-id, and for each subject group, multiple (N) longitudinal acquisitions are stacked as a 4D array of shape [N, w, h, d]. Example code to generate such h5 file is given below:
 ```python
