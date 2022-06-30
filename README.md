@@ -79,7 +79,6 @@ cd src/scripts
 bash script_finetune_w_Lcs.sh
 ```
 
-Note: For both pretraining and finetuning, the number of epochs, learning rate and optimization parameters are dataset specific and should be adjusted accordingly.
 
 ## Reference
 This code base architecure is highly motivated by [CUT](https://github.com/taesungp/contrastive-unpaired-translation). We refer to [SimSiam](https://github.com/facebookresearch/simsiam) for our projector and predictor implementation, and [VICReg](https://github.com/facebookresearch/vicreg) for the variance and covariance regularization terms.
