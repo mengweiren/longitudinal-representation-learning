@@ -1,5 +1,5 @@
 # Longitudinal Representation Learning
-Reference implementation of "*Local Spatiotemporal Representation Learning for Longitudinally-consistent Neuroimage Analysis*"
+Reference implementation of "*Local Spatiotemporal Representation Learning for Longitudinally-consistent Neuroimage Analysis*", to appear, NeurIPS 22 (oral).
 
 Given longitudinal neuroimages with scarce annotation, pretrain a image-to-image network (i.e., U-Net) with the proposed self-supervised spatiotemporal representation learning objectives, and finetune with limited annotation (i.e. 1 subject atlas), optionally with a longitudinal consistency-regularization term.
 
